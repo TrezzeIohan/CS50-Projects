@@ -1,0 +1,58 @@
+sort1 uses: Bubble sort.
+
+How do you know?: Because it was the fastest when sorting numbers that where already in order.
+
+                  O(n²) , Ω (n)
+
+                 obs: "O" is a notation for the slowest solution possible due to its method and Ω is the fastest solution.
+
+
+
+
+sort2 uses: Merge sort.
+
+How do you know?: Because it was by far the fastest one when sorting 50000 random numbers.
+                  It took sort2 1.402 secondes while the others took 8.626s and 3.732s,
+                  sort1 and sort3 respectively.
+
+                  O(n log n) , Ω(n log n)
+
+
+
+sort3 uses: Selection sort.
+
+How do you know?: Because in theory it was similar to Bubble sort, but slower.
+
+                  O(n²) , Ω(n²)
+
+
+
+Obs: My PC ran sort3 much faster than sort1. I wonder if my pc is having a memory issue,
+a problem on multitasking or some other thing.
+
+
+
+OBS:
+
+Random 50.000
+sort1 took 0m8.626s to sort 50000 random numbers.
+sort2 took 0m1.402s to sort 50000 random numbers.
+sort3 took 0m3.732s to sort 50000 random numbers.
+
+
+
+Reversed50000
+
+Program1 took 6.851s
+Program2 took 1.086s
+Program3 took 3.645s
+
+
+Sorted50000
+Sort1 took 0.001s
+Sort2 took 0.002s
+Sort3 took 0.004s
+
+Sorted5000
+Sort3 took 0.002s
+Sort1 took 0.002s
