@@ -1,0 +1,7 @@
+PESUDOCODE for cash.c
+
+1. Get te nnmber of cents by a user prompt. Do that while the number is positive.
+
+2. Calculate how many coins a user must receive according to the type of coins asked
+
+3.Return the number of coins needed for that amount

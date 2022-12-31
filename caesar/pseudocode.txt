@@ -1,0 +1,25 @@
+Pesudo code for Caesar challenge
+
+
+
+Prompt the user for a Key
+- Check if this key is a positive int;
+    If false,
+        Printf ("Use only positive integers as key")
+        Retun 1
+
+    If true,
+        Prompt the user for Plain Text to be ciphered
+
+        Get the text length and use it to iterate between letters;
+            Check if the letter is Alphabetic
+                If true,
+                    get the int key, divide by 26, get it's remainder and add 1
+                        assign the resulting ASCII code to the letter
+
+
+
+                If false, keep it as is.
+
+
+        Print the result
