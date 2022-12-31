@@ -1,0 +1,107 @@
+html {
+    width:100vw;
+}
+
+body {
+    overflow-x: hidden;
+    width: 100vw;
+}
+
+nav {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    color: whitesmoke;
+    background-color: #b5b9e6;
+}
+
+nav>ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    width: 100%;
+    background-color: #b5b9e6;
+}
+
+nav>ul>li {
+    margin: 0 30px;
+}
+
+li{
+    text-decoration: none;
+}
+
+h1 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3vh;
+    padding: 3vh;
+    margin: 3vh;
+}
+
+#lorem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3%;
+}
+
+#lorem>p{
+    width: 50vw;
+}
+
+#dog-container{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#hello-dog{
+    width: 40vw;
+    height: 60vh;
+}
+
+#happy-dog{
+    width: 50vw;
+    height: 60vh;
+}
+
+
+table, th, td {
+    border: 1px solid;
+    text-align: center;
+  }
+
+
+#char_table {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: none;
+    padding: 2%;
+    flex-direction: column;
+}
+
+#char_table>button{
+    margin-top: 2%;
+}
+
+@media (max-width: 500px) {
+    img{
+        display: none;
+    }
+
+    nav>ul>li {
+        margin: 0 10px;
+    }
+}

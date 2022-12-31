@@ -1,0 +1,10 @@
+Pseudocode for Mario-Less Confortable Version
+
+
+
+1.  Prompt te user for an int while this int is <1 and >8
+
+2. If the input is >= 1 or <= 8;
+
+3. Print " " on a input - x (number of iterations) relation and "#" a
+number of times equals to te corresponding iteration number
