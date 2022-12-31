@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+        <script>
+
+            // Wait for the DOM to be fully loaded to start making these functions work
+           document.addEventListener('DOMContentLoaded', function(){
+
+                // Right Answer click
+                let correct = document.querySelector('.correct');
+                correct.addEventListener('click', function(){
+                    correct.style.backgroundColor = 'green';
+                    document.querySelector('#feedback1').innerHTML = 'Correto!';
+                });
+
+                // Wrong answer click
+                let mistakes = document.querySelectorAll('.wrong');
+                for (let i = 0; i < mistakes.length; i++){
+                    mistakes[i].addEventListener('click', function(){
+                        mistakes[i].style.backgroundColor = 'red';
+                    })
+                }
+
+                // Free response section
+                document.querySelector('#check').addEventListener('click', function() {
+                    let input = document.querySelector('input');
+                    if (input.value === 'Brasil' || input.value === 'Brazil') {
+                        input.style.backgroundColor = 'green';
+                        document.querySelector('#feedback2').innerHTML = 'Correct!';
+                    }
+                    else {
+                        input.style.backgroundColor = 'red';
+                        document.querySelector('#feedback2').innerHTML = 'Incorrect!';
+                    }
+                });
+
+           });
+        </script>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+                <h3>Quanto é 1 + 1?</h3>
+                <br/>
+                <button class="correct">2</button>
+                <button class="wrong">3</button>
+                <button class="wrong">4</button>
+
+                <p id="feedback1"></p>
+
+            </div>
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+                <h3>Qual é a única seleção pentacampeã mundial no futebol?</h3>
+                <input type="text"></input>
+                <button id="check">Checar Resposta</button>
+
+                <p id="feedback2"></p>
+            </div>
+        </div>
+    </body>
+</html>
