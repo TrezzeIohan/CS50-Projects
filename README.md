@@ -15,7 +15,7 @@ and web development creating familiarity in a number of languages, including C, 
 denominado CS50's Introduction to Computer Science.</p>
 
 <p>O curso ensina uma ampla e vasta compreensão sobre a Ciência da Computação e programação, como pensar de maneira
-algorítmica e a solucionar problemas de maneira eficiente./p>
+algorítmica e a solucionar problemas de maneira eficiente.</p>
 
 <p>Ele também ensina conceitos como abstração, algoritmos, estrutura de dados, encapsulação, administração de recursos,
 segurança da informação, engenharia de software e desenvolvimento web, criando familiaridade com diversas linguagens
