@@ -1,5 +1,5 @@
 <h1>CS50 PROJECTS</h1>
-<p>A collection of all de projects necessary to complete de Harvard's CS50's Introduction to Computer Science</p>
+<p>A collection of all the projects necessary to complete de Harvard's CS50's Introduction to Computer Science</p>
 <p>The course teaches a broad and robust understanding of computer science and programming, how to think 
 algorithmically and solve programming problems efficiently.</p>
 
