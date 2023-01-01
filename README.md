@@ -1,5 +1,5 @@
 <h1>CS50 PROJECTS</h1>
-<p>A collection of all the projects necessary to complete de Harvard's CS50's Introduction to Computer Science</p>
+<p>A collection of all the projects necessary to complete de Harvard's CS50's Introduction to Computer Science.</p>
 <p>The course teaches a broad and robust understanding of computer science and programming, how to think 
 algorithmically and solve programming problems efficiently.</p>
 
@@ -19,6 +19,6 @@ algorítmica e a solucionar problemas de maneira eficiente.</p>
 
 <p>Ele também ensina conceitos como abstração, algoritmos, estrutura de dados, encapsulação, administração de recursos,
 segurança da informação, engenharia de software e desenvolvimento web, criando familiaridade com diversas linguagens
-incluindo C, Python, SQL e Javascript além de CSS e HTML</p>
+incluindo C, Python, SQL e Javascript além de CSS e HTML.</p>
 
 <p>O curso pode ser encontrado em https://www.edx.org/course/introduction-computer-science-harvardx-cs50x</p>
